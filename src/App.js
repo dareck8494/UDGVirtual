@@ -24,7 +24,7 @@ class StakeholderRequirementsForm extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    // Agregar el stakeholder y el requisito a las listas
+    
     const newStakeholder = this.state.stakeholderName;
     const newRequirement = this.state.requirementDescription;
 
